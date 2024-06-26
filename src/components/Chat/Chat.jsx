@@ -6,7 +6,7 @@ import chat from './Chat.module.scss'
 import EmojiPicker from 'emoji-picker-react'
 import Messages from './Messages';
 
-const socket = io.connect('http://localhost:5000');
+const socket = io.connect('https://server-chat-3b6n.onrender.com');
 
 const Chat = () => {
 
