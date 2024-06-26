@@ -1,0 +1,164 @@
+@import "./../../variables.scss";
+
+.wrapper {
+    padding: 20px;
+    background: rgba(0, 0, 255, 0.811);
+    width: 100vw;
+    height: 100vh;
+    font-family: Nunito;
+    color: #fff;
+}
+
+.bodyChat {
+    border-radius: 20px;
+    background: #171717;
+    @extend %displayFlexDirection;
+    height: 90vh;
+}
+
+//------------------------------wrapper
+
+//------------------------------------------------header
+.header {
+    background: #242323;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+
+
+}
+
+.headerTitle {
+    width: 100px;
+}
+
+.headerUsers {}
+
+.leftRoom {
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+//------------------------------------------------header
+
+
+//-----------------------------------chatBody
+
+.chatBody {
+    flex: 1 1 auto;
+    padding: 30px;
+    overflow: auto;
+}
+
+.messageContainer {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.messageItem {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+//-----------------------------------form
+
+.form {
+    background: #242323;
+    @extend %displayStandart;
+    gap: 10px;
+    padding: 10px 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.BoxInputMessage {
+    flex: 1 1 auto;
+
+}
+
+.ChatInput {
+    padding-left: 10px;
+    color: #fff;
+}
+
+.ChatEmojies {
+    position: relative;
+}
+
+.emojiBlock {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    max-width: 400px;
+}
+
+.btnFormChat {
+
+    padding: 10px;
+    color: #fff;
+    max-width: fit-content;
+
+    img {
+        width: 15px;
+    }
+}
+
+.boxImage {
+    cursor: pointer;
+    max-width: 15px;
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.me {
+    font-size: 10px;
+    padding-bottom: 5px;
+    color: rgba(204, 148, 44, 0.748);
+}
+
+.user {
+    font-size: 10px;
+    padding-bottom: 5px;
+    color: rgba(28, 163, 216, 0.568);
+    align-self: flex-end;
+
+    span {
+        text-align: right;
+    }
+
+    .text {
+        align-self: flex-end;
+        text-align: right;
+    }
+}
+
+.text {
+    font-size: 14px;
+    color: #fff;
+}
+
+//-----------------------------------form
+
+
+//-----------------------------------chatBody
+
+
+
+//------------------------------wrapper

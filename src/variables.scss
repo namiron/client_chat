@@ -1,0 +1,53 @@
+@use 'sass:math';
+
+$mw: 1440px;
+
+%container {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+%text {
+  font-size: 18px;
+
+  line-height: 1.2;
+}
+
+%title {
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+%displayFlexDirection {
+  display: flex;
+  flex-direction: column;
+}
+
+%displayCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%displayStandart {
+  display: flex;
+  align-items: center;
+}
+
+%displayJustifyContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%gridMainWindow {
+  display: grid;
+  grid-template: 1fr / minmax(150px, 250px) 1fr;
+  height: 100%;
+}
+
+
+
+//   @import "variables.scss";

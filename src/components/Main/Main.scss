@@ -1,0 +1,89 @@
+@import "./../../variables.scss";
+
+//--------------------------global
+.loaginPage {
+    background: rgba(0, 0, 255, 0.811);
+    width: 100vw;
+    height: 100vh;
+    font-family: Nunito;
+    @extend %displayCenter;
+}
+
+.loaginPageContainer {
+    @extend %container;
+}
+
+//--------------------------global
+
+
+//---------------------------title
+.loaginHeading {
+    padding-bottom: 20px;
+}
+
+.loaginTitle {
+    @extend %title;
+    color: #fff;
+}
+
+//---------------------------title
+
+
+//-------------------------------form
+.form {
+    @extend %displayFlexDirection;
+    gap: 15px;
+}
+
+//--------------------Box
+.BoxInputName {
+    input {
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #000;
+        padding-left: 10px;
+    }
+}
+
+.BlockInputRoot {
+    input {
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #000;
+        padding-left: 1 0px;
+    }
+}
+
+//--------------------Box
+
+
+
+//---------------------Text
+.TextInputName {
+    color: #fff;
+    @extend %text;
+}
+
+.TextInputPassword {
+    color: #fff;
+    @extend %text;
+
+}
+
+//---------------------Text
+
+.btnForm {
+    background: rgb(177, 46, 189);
+    color: #fff;
+    padding: 10px;
+    transition: all 0.3s;
+    border-radius: 5px;
+
+    &:hover {
+        transition: all 0.3s;
+
+        background: rgb(187, 66, 198);
+    }
+}
+
+//-------------------------------form
