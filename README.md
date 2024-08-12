@@ -1,6 +1,6 @@
 # CHAT client
 
-Is a training project on implementing a program for real-time communication
+This is a training project to implement a real-time communication program.
 
 ## Technologies
 
