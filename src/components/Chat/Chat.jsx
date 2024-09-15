@@ -68,7 +68,7 @@ const Chat = () => {
                             <p className={chat.headerUsers}>
                                 {users} users in this room
                             </p>
-                            <button className={chat.leftRoom} onClick={leftThisRoom}>left this room</button>
+                            <button className={chat.leftRoom} onClick={leftThisRoom}> leave the room</button>
                         </div>
                     </header>
                     <div className={chat.chatBody}>
